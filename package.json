@@ -1,0 +1,43 @@
+{
+  "name": "cached-function",
+  "version": "1.0.0",
+  "description": "Wraps a function and caches its return values.",
+  "keywords": [
+    "function",
+    "method",
+    "getter",
+    "cache",
+    "wrapper"
+  ],
+  "author": "John Lamansky",
+  "license": "MIT",
+  "homepage": "https://github.com/lamansky/cached-function",
+  "repository": "lamansky/cached-function",
+  "main": "index.js",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "dependencies": {
+    "check-types": "^7.1.1",
+    "get-descriptor": "^1.0.1",
+    "maybe-stringify": "^1.0.0",
+    "modify-property": "^1.0.0",
+    "multikey": "^0.0.4",
+    "named-function": "^1.0.3",
+    "suppress": "^1.0.0",
+    "ttlmap": "2.0.0"
+  },
+  "devDependencies": {
+    "eslint-config-lamansky": "^1.0.0",
+    "mocha": "^3.2.0"
+  },
+  "scripts": {
+    "test": "mocha -t 100"
+  },
+  "eslintConfig": {
+    "extends": "lamansky",
+    "env": {
+      "mocha": true
+    }
+  }
+}
